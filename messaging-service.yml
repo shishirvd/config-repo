@@ -1,8 +1,8 @@
 spring:
   profiles: dev
-message: This is a DEV message.
+messaging-service.message: This is a DEV message.
 
 ---
 spring:
   profiles: test
-message: This is a TEST message.
+messaging-service.message: This is a TEST message.
